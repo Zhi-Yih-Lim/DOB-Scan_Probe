@@ -22,9 +22,9 @@ for loss in LossLst:
                         # Instantiate a dictionary that will store the training parameters for the SNN model
                         trainingParamDict ={
                             # Fixed
-                            "Path2i690TrainingData":"C:\\Users\\lim-z\\Desktop\\Nerural Net DOB\\Additional Data\\Train\\SortedNormi690Train.csv", # Path to eLED1's training data
-                            "Path2ii690TrainingData":"C:\\Users\\lim-z\\Desktop\\Nerural Net DOB\\Additional Data\\Train\\SortedNormii690Train.csv", # Path to eLED2's training data
-                            "Path2SaveWeights":"C:\\Users\\lim-z\\Desktop\\Nerural Net DOB\\Direct prediction from reflectance\\Weights\\Trained on additional data 2", # Path to save the trained weights of the different models
+                            "Path2i690TrainingData":"", # Path to eLED1's training data
+                            "Path2ii690TrainingData":"", # Path to eLED2's training data
+                            "Path2SaveWeights":"", # Path to save the trained weights of the different models
                             "NoOfOutput":2,
                             "Epochs":20000,
                             # Varying
